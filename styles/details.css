@@ -1,0 +1,28 @@
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+    row-gap: 40px;
+   
+}
+
+.options {
+    flex-basis: 25%;
+    margin: 0 2rem;
+    border: 1px dashed dodgerblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+.customOrders, .button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.customOrders {
+    border: 1px dashed darkblue;
+    background: lightblue;
+}
